@@ -1,0 +1,12 @@
+Breakpoint 1, main () at p2original.c:23
+23  {
+(gdb) s
+25    input(&a,&b,&c);
+(gdb) n
+enter a no.n
+26    cmp(a,b,c,&largest);
+(gdb) n
+27    output(largest);
+(gdb) n
+28    return 0;
+(gdb) 
